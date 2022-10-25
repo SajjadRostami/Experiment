@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Cart8 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private GameRole gameRole;
     void Start()
     {
 
@@ -19,5 +19,15 @@ public class Cart8 : MonoBehaviour
     void OnMouseDown()
     {
         transform.localRotation *= Quaternion.Euler(0, 180, 0);
+        gameRole = FindObjectOfType<GameRole>();
+        gameRole.results[0] = 8;
+        
+
+
+
+
+
+
+
     }
 }
