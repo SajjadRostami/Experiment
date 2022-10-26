@@ -6,6 +6,7 @@ using UnityEngine;
 public class Cart8 : MonoBehaviour
 {
     private GameRole gameRole;
+    
     void Start()
     {
 
@@ -21,7 +22,8 @@ public class Cart8 : MonoBehaviour
         transform.localRotation *= Quaternion.Euler(0, 180, 0);
         gameRole = FindObjectOfType<GameRole>();
         gameRole.results[0] = 8;
-        
+       
+        gameRole.primeNumbers.Add("Cart8");
 
 
 

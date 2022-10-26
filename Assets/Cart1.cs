@@ -21,5 +21,6 @@ public class Cart1 : MonoBehaviour
         transform.localRotation *= Quaternion.Euler(0, 180, 0);
         gameRole = FindObjectOfType<GameRole>();
         gameRole.results[1] = 1;
+        gameRole.primeNumbers.Add("Cart1");
     }
 }

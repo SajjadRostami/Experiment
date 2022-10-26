@@ -20,6 +20,12 @@ TagManager:
   - Cart13
   - Cart6
   - Cart14
+  - Board
+  - StartBoard
+  - StartGame
+  - Timer
+  - ReStartGame
+  - NewGameBoard
   layers:
   - Default
   - TransparentFX
