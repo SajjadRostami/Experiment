@@ -39,6 +39,7 @@ public class ReStartGame : MonoBehaviour
             
 
         }
+        counter = 0;
         gameRole = FindObjectOfType<GameRole>();
         gameRole.stepOne = true;
         gameRole.stepTwo = true;
@@ -48,6 +49,7 @@ public class ReStartGame : MonoBehaviour
         gameRole.stepSix = true;
         gameRole.stepSeven = true;
         gameRole.stepEight = true;
+        gameRole.score[0] = 0;
         startGameResetTime.time = 0;
         startGameResetTime.startTimer = true;
         
